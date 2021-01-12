@@ -14,10 +14,15 @@ public class DateDemo1 {
         // date to string
 
         SimpleDateFormat sd = new SimpleDateFormat("dd-MM-yyyy hh:mm");
-
         String dateStr =  sd.format(date);
-
         System.out.println(dateStr);
+
+        SimpleDateFormat sd1 = new SimpleDateFormat("EEEE yyyy/MM/dd");
+        String dateStr1 = sd1.format(date);
+        System.out.println(dateStr1);
+
+
+        // Date to String conversion
 
     }
 
