@@ -12,7 +12,6 @@ public class MyClassCopyConst {
         // no body - Empty constructor
     }
 
-
     MyClassCopyConst(MyClassCopyConst obj)
     {
        a = obj.a; // 10
@@ -36,6 +35,10 @@ public class MyClassCopyConst {
         ob.d = 23.45;
         ob.str ="amol";
         ob.display();
+
+
+        MyClassCopyConst ob1 = new MyClassCopyConst();
+        ob1.display();
 
         MyClassCopyConst ob2 = new MyClassCopyConst(ob);
         ob2.display();
