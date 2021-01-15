@@ -20,12 +20,12 @@ public class Java3 {
         public static void main(String[] args) {
 
             Java1 ob = new Java1();
-            ob.a1 =10; // public
-          /*  ob.d1=20.4;
+           /* ob.a1 =10; // public
+           ob.d1=20.4;
             ob.c1='g';
             ob.str1="fdff";
-            ob.display1();
-*/
+            ob.display1();*/
+
         }
 
 }

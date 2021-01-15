@@ -7,7 +7,7 @@ public class Java1 {
         char ch1;
         String str1; // data members
 
-        void display1() // member function
+        public void display1() // member function
         {
             System.out.println("a1="+a1);
             System.out.println("d1="+d1);
