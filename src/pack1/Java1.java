@@ -4,7 +4,11 @@ public class Java1 {
 
        public int a1;
        private double d1;
-        char ch1;
+
+      protected  char ch1; // lets access this memebr out side the package
+
+    // in Java4 class in pack2
+
         String str1; // data members
 
         public void display1() // member function

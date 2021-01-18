@@ -1,6 +1,8 @@
 package pack2;
 
-public class Java4 {
+import pack1.Java1;
+
+public class Java4 extends Java1 {
 
         int a4;
         double d4;
@@ -16,6 +18,19 @@ public class Java4 {
         }
 
         public static void main(String[] args) {
+
+            Java4 ob = new Java4();
+
+            ob.a1 = 12;
+           // ob.d1 = 2.3;
+            ob.ch1 ='g';
+
+            Java1 ob1 = new Java1();
+
+          //  ob1.ch1 = 'h';
+
+
+
         }
 
 }
