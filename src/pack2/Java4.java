@@ -1,6 +1,9 @@
 package pack2;
 
+
 import pack1.Java1;
+
+import static FinalAndStatic.StudentStaticMethodDemo.*;
 
 public class Java4 extends Java1 {
 
@@ -30,6 +33,10 @@ public class Java4 extends Java1 {
           //  ob1.ch1 = 'h';
 
 
+            /*StudentStaticMethodDemo.method2();
+            StudentStaticMethodDemo.college;*/
+
+            method2();
 
         }
 
