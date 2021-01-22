@@ -1,3 +1,5 @@
+package JavaBasics;
+
 class Addition
 {
 	public static void main(String[] args)
@@ -10,7 +12,7 @@ class Addition
 		b=20;
 		c = a + b ;
 		System.out.println(c);
-		System.out.println("Addition="+c);
+		System.out.println("JavaBasics.Addition="+c);
 
 	}
 
