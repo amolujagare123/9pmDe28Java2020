@@ -1,11 +1,8 @@
 package JDBCDemo;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
-public class JDBCDemo1 {
+public class JDBCDemo2 {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
@@ -26,12 +23,18 @@ public class JDBCDemo1 {
 
        // 4. Executing the sql query
 
-//        String sql = "insert into student value(3,'Tushar','IT',89)";
+        String sql = "Select * from student where id=2";
 
-      //  String sql = "update student set name='abc' where id=3";
+        ResultSet rs = st.executeQuery(sql);
 
-        String sql = "delete from student where id = 3";
-        st.executeUpdate(sql);
+        while(rs.next())
+        {
+            System.out.print(rs.getInt("id")+" ");
+            System.out.print(rs.getString("name")+" ");
+            System.out.print(rs.getString("branch")+" ");
+            System.out.println(rs.getInt("marks"));
+        }
+
 
     }
 }
